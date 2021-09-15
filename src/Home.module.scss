@@ -8,12 +8,152 @@
   align-items: center;
   justify-content: center;
   z-index: 2021;
+
+  nav {
+    ul {
+      display: flex;
+      li {
+        & + li {
+          margin-left: 42px;
+        }
+      }
+    }
+  }
 }
 
 .main {
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0 15px;
   padding-top: 180px;
 
   .sHero {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 176px;
+
+    .left {
+      p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ccc;
+        max-width: 696px;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+
+        button {
+          width: 176px;
+          height: 59px;
+          border: 0;
+          background-color: var(--green);
+          border-radius: 16px;
+          color: #fff;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 700;
+          transition: all 0.2s;
+
+          &:hover,
+          &:focus {
+            transform: scale(1.1);
+            filter: brightness(0.9);
+          }
+        }
+
+        .social {
+          display: flex;
+          align-items: flex-end;
+          ul {
+            display: flex;
+            align-items: flex-end;
+            li {
+              transition: all 0.2s;
+              & + li {
+                margin-left: 40px;
+              }
+
+              &:hover {
+                transform: translateY(-4px);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .image {
+      img {
+        max-width: 416px;
+        width: 100%;
+        padding-left: 50px;
+      }
+    }
+  }
+
+  .sCronograma {
+    h2 {
+      font-size: 48px;
+      color: var(--green);
+      &:after {
+        content: '';
+        display: block;
+        width: 45px;
+        height: 5px;
+        background-color: var(--purple);
+        border-radius: 16px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .sCampeonato {
+    h2 {
+      font-size: 48px;
+      color: var(--purple);
+      &:after {
+        content: '';
+        display: block;
+        width: 45px;
+        height: 5px;
+        background-color: var(--green);
+        border-radius: 16px;
+        margin-top: 10px;
+      }
+    }
+    p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      color: #ccc;
+      margin-top: 18px;
+
+      span {
+        color: var(--purple);
+      }
+    }
+    h4 {
+      margin-top: 22px;
+      font-size: 22px;
+      color: var(--green);
+    }
+    .swiper-wrapper {
+      display: flex;
+    }
+    .slider {
+      display: flex;
+      margin-top: 80px;
+      .slide {
+        img {
+          border-radius: 30px;
+        }
+        & + .slide {
+          margin-left: 120px;
+        }
+      }
+    }
   }
 }

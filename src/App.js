@@ -1,7 +1,10 @@
 import styles from './Home.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Autoplay } from 'swiper';
+import 'swiper/swiper-bundle.css';
 
 function App() {
+  SwiperCore.use([Autoplay]);
   return (
     <>
       <header className={styles.header}>
@@ -97,38 +100,74 @@ function App() {
 
           <p>Clique nas imagens para ler o regulamento.</p>
 
-          <Swiper spaceBetween={50} slidesPerView={3} className={styles.slider}>
-            <SwiperSlide>
-              <div className={styles.slide}>
+          <Swiper
+            spaceBetween={150}
+            slidesPerView={3}
+            className={styles['swiper-wrapper']}
+            autoplay={{ delay: 3000 }}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 16,
+              },
+              600: {
+                slidesPerView: 2,
+                spaceBetween: 16,
+              },
+              1200: {
+                slidesPerView: 3.2,
+                spaceBetween: 32,
+              },
+            }}
+          >
+            <SwiperSlide className={styles['swiper-slide']}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://docs.google.com/document/d/1QwpYuYufrqaMJ3Ag8RybtwZbIruME6hy/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
+              >
                 <img src="/assets/csgo.jpg" alt="CS:GO" />
-              </div>
+              </a>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="swiper-slide">
-                <div className={styles.slide}>
-                  <img src="/assets/lol.jpg" alt="LOL" />
-                </div>
-              </div>
+            <SwiperSlide className={styles['swiper-slide']}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://docs.google.com/document/d/19Bs4l8aYTzeHkMUSC4mOuTHMtisjKjYe/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
+              >
+                <img src="/assets/lol.jpg" alt="LOL" />
+              </a>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="swiper-slide">
-                <div className={styles.slide}>
-                  <img src="/assets/valorant.jpg" alt="Valorant" />
-                </div>
-              </div>
+            <SwiperSlide className={styles['swiper-slide']}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://docs.google.com/document/d/1XdoKxTONRs50p0aT8fHZ-ub66jyDCXHvK05juIoKVjs/edit"
+              >
+                <img src="/assets/valorant.jpg" alt="Valorant" />
+              </a>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="swiper-slide">
-                <div className={styles.slide}>
-                  <img src="/assets/overwatch.jpg" alt="Overwatch" />
-                </div>
-              </div>
+            <SwiperSlide className={styles['swiper-slide']}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://docs.google.com/document/d/1Cdo6gKPeWVbYWax1B6BODR2V7mQFWjgp/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
+              >
+                <img src="/assets/overwatch.jpg" alt="Overwatch" />
+              </a>
             </SwiperSlide>
           </Swiper>
         </section>
       </main>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <footer className={styles.footer}>
+        <div className={styles.realizacao}>
+          <h3>Realização:</h3>
+        </div>
+        <div className={styles.patrocinio}>
+          <h3>Patrocinio:</h3>
+        </div>
+      </footer>
     </>
   );
 }

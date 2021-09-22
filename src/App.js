@@ -2,12 +2,18 @@ import styles from './Home.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
 import 'swiper/swiper-bundle.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   SwiperCore.use([Autoplay]);
+  AOS.init({
+    duration: 500,
+    once: true,
+  });
   return (
     <>
-      <header className={styles.header}>
+      <header className={styles.header} id="inicio">
         <nav>
           <ul>
             <li>
@@ -23,7 +29,7 @@ function App() {
       <main className={styles.main}>
         <section id="sobre" className={styles.sHero}>
           <div className={styles.left}>
-            <p>
+            <p data-aos="fade-down">
               A Semana da Computação, carinhosamente chamada de SECOMP, é um
               evento que ocorre uma vez por ano na UEM (Universidade Estadual de
               Maringá) e é promovido pelo Departamento de Informática, o DIN. A
@@ -39,8 +45,8 @@ function App() {
               Aproveite!
             </p>
             <div className={styles.footerHero}>
-              <button>INSCREVA-SE</button>
-              <div className={styles.social}>
+              <button data-aos="fade-left">INSCREVA-SE</button>
+              <div className={styles.social} data-aos="fade-up">
                 <ul>
                   <li>
                     <a href="https://www.youtube.com/c/PETInformáticaUEM">
@@ -66,18 +72,18 @@ function App() {
               </div>
             </div>
           </div>
-          <div className={styles.image}>
+          <div className={styles.image} data-aos="zoom-in">
             <img src="/assets/logo.svg" alt="Logo SECOMP" title="Logo SECOMP" />
           </div>
         </section>
 
         <section id="cronograma" className={styles.sCronograma}>
-          <h2>Cronograma</h2>
+          <h2 data-aos="fade-right">Cronograma</h2>
         </section>
 
         <section id="campeonato" className={styles.sCampeonato}>
-          <h2>Campeonato</h2>
-          <p>
+          <h2 data-aos="fade-right">Campeonato</h2>
+          <p data-aos="fade-down">
             O Campeonato de Jogos da Quinta Edição da SECOMP será composto por
             quatro jogos: <span>CS:GO</span>, <span>League of Legends</span>,{' '}
             <span>Overwatch</span> e <span>Valorant</span>. As Eliminatórias e
@@ -85,19 +91,20 @@ function App() {
             setembro até 3 de outubro. A Final acontecerá AO VIVO na Twitch no
             final de semana que sucede a SECOMP (9 e 10 de outubro).
           </p>
-          <p>
+          <p data-aos="fade-down">
             Obs: nada impede que os outros não sejam ao vivo, isso pode ser
             acordado.
           </p>
-          <h4>Horários</h4>
-          <p>
+          <h4 data-aos="fade-right">Horários</h4>
+          <p data-aos="fade-down">
             Durante a Semana: 17:30 às 19:30; Finais de Semana: Manhã, Tarde e
             Noite (horário ainda a definir).
           </p>
 
-          <p>Clique nas imagens para ler o regulamento.</p>
+          <p data-aos="fade-down">Clique nas imagens para ler o regulamento.</p>
 
           <Swiper
+            data-aos="fade-up"
             spaceBetween={150}
             slidesPerView={3}
             className={styles['swiper-wrapper']}
@@ -207,6 +214,28 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <a className={styles.scrollUp} href="#inicio">
+        <svg
+          enable-background="new 0 0 32 32"
+          id="Слой_1"
+          version="1.1"
+          viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.714,11.297c-0.389-0.389-1.039-0.389-1.429,0l-8.999,8.976  c-0.394,0.394-0.394,1.033,0,1.426c0.394,0.394,1.034,0.394,1.428,0L16,13.436l8.285,8.264c0.395,0.394,1.034,0.394,1.429,0  c0.394-0.394,0.394-1.033,0-1.426L16.714,11.297z"
+            fill="#fff"
+            id="Expand_Less"
+          />
+          <g />
+          <g />
+          <g />
+          <g />
+          <g />
+          <g />
+        </svg>
+      </a>
     </>
   );
 }

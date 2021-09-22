@@ -8,13 +8,22 @@
   align-items: center;
   justify-content: center;
   z-index: 2021;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
 
   nav {
     ul {
       display: flex;
       li {
+        transition: color 0.2s;
+        &:hover {
+          color: var(--green);
+        }
         & + li {
           margin-left: 42px;
+          &:hover {
+            color: var(--purple);
+          }
         }
       }
     }
@@ -41,7 +50,7 @@
         max-width: 696px;
       }
 
-      .footer {
+      .footerHero {
         display: flex;
         justify-content: space-between;
         margin-top: 24px;
@@ -119,7 +128,7 @@
           max-width: 380px;
         }
 
-        .footer {
+        .footerHero {
           flex-direction: column;
           align-items: center;
           button {
@@ -196,11 +205,57 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  background-color: var(--green);
+  min-height: 350px;
+  padding: 60px 200px;
+
+  h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .realizacao,
+  .patrocinio {
+    .logos {
+      max-width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      img {
+        max-width: 120px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  .footer {
+    padding: 60px 100px;
+  }
 }
 
 @media (max-width: 991px) {
   .main {
     padding-top: 50px;
+  }
+  .footer {
+    padding: 60px 50px;
+    flex-direction: column-reverse;
+
+    .realizacao,
+    .patrocinio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .patrocinio {
+      margin-bottom: 80px;
+    }
   }
 }
 

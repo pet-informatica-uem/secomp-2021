@@ -302,9 +302,14 @@
   bottom: 30px;
   right: 30px;
   z-index: 2020;
+  transition: transform 0.2s;
 
   svg {
     width: 30px;
     height: 30px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
   }
 }

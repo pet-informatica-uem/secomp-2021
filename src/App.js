@@ -31,18 +31,25 @@ function App() {
         <section id="sobre" className={styles.sHero}>
           <div className={styles.left}>
             <p data-aos="fade-down">
-              A Semana da Computação, carinhosamente chamada de SECOMP, é um
-              evento que ocorre uma vez por ano na UEM (Universidade Estadual de
-              Maringá) e é promovido pelo Departamento de Informática, o DIN. A
-              SECOMP 2021 será a quarta edição do evento e acontecerá nos dias
-              04, 05, 06, 07 e 08 de outubro de 2021. As inscrições são
-              gratuitas e todos podem participar! A programação inclui
-              palestras, painéis de discussões, campeonato de jogos e sorteios,
-              tudo isto com o intuito de levar tecnologia e informação aos
-              participantes. Confira a programação aqui pelo site. Quando você
-              fizer sua inscrição, irá receber um e-mail com mais detalhes sobre
-              o evento e convidamos você a participar do Discord da V SECOMP e
-              ficar por dentro de qualquer atualização, ou tirar suas dúvidas.
+              A Semana da Computação, carinhosamente chamada de{' '}
+              <span>SECOMP</span>, é um evento que ocorre uma vez por ano na UEM
+              (Universidade Estadual de Maringá) e é promovido pelo Departamento
+              de Informática, o DIN. A SECOMP 2021 será a quarta edição do
+              evento e acontecerá nos{' '}
+              <span>dias 04, 05, 06, 07 e 08 de outubro</span> de 2021. As
+              inscrições são gratuitas e todos podem participar! A programação
+              inclui palestras, painéis de discussões, campeonato de jogos e
+              sorteios, tudo isto com o intuito de levar tecnologia e informação
+              aos participantes. Confira a programação aqui pelo site.
+              Convidamos você a participar do{' '}
+              <a
+                href="https://discord.gg/6XKBDnbFsQ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Discord da IV SECOMP
+              </a>{' '}
+              e ficar por dentro de qualquer atualização, ou tirar suas dúvidas.
               Aproveite!
             </p>
             <div className={styles.footerHero}>
@@ -50,22 +57,38 @@ function App() {
               <div className={styles.social} data-aos="fade-up">
                 <ul>
                   <li>
-                    <a href="https://www.youtube.com/c/PETInformáticaUEM">
+                    <a
+                      href="https://www.youtube.com/c/PETInformáticaUEM"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src="./assets/youtube-icon.svg" alt="YouTube" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/secompuem/">
+                    <a
+                      href="https://www.instagram.com/secompuem/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src="./assets/instagram-icon.svg" alt="Instagram" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://discord.gg/6XKBDnbFsQ">
+                    <a
+                      href="https://discord.gg/6XKBDnbFsQ"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src="./assets/discord-icon.svg" alt="Discord" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.twitch.tv/petinformaticauem">
+                    <a
+                      href="https://www.twitch.tv/petinformaticauem"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img src="./assets/twitch-icon.svg" alt="Twitch" />
                     </a>
                   </li>
@@ -80,44 +103,78 @@ function App() {
 
         <section id="cronograma" className={styles.sCronograma}>
           <h2 data-aos="fade-right">Cronograma</h2>
-          <table data-aos="fade-down" class="table-fixed border-4 border-secomp">
+          <table
+            data-aos="fade-down"
+            class="table-fixed border-4 border-secomp"
+          >
             <thead>
-              <tr class = "border-secomp border-b-2">
-              <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/20">Dia</th>
-              <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-1/50">Hora</th>
-              <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/4">Palestra</th>
+              <tr class="border-secomp border-b-2">
+                <th class="bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/20">
+                  Dia
+                </th>
+                <th class="bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-1/50">
+                  Hora
+                </th>
+                <th class="bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/4">
+                  Palestra
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-              <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">04/10<br></br>(IA)</td>
-              <td class = "p-4 border-b-2 border-r-2 border-secomp">17:30</td>
-              <td class = "p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
+                <td rowspan="2" class="p-4 border-b-2 border-r-2 border-secomp">
+                  04/10<br></br>(IA)
+                </td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">17:30</td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">
+                  Fulana de tal tal coisa
+                </td>
               </tr>
               <tr>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">18:30</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">Ciclada de taal e godofredo</td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">18:30</td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">
+                  Ciclada de taal e godofredo
+                </td>
               </tr>
               <tr>
-                <td rowspan = "2" class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">05/10<br></br>(Game)</td>
-                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">17:30</td>
-                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
+                <td
+                  rowspan="2"
+                  class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp"
+                >
+                  05/10<br></br>(Game)
+                </td>
+                <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
+                  17:30
+                </td>
+                <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
+                  Fulana de tal tal coisa
+                </td>
               </tr>
               <tr>
-                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">18:30</td>
-                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Ciclana de taal e godofredo</td>
+                <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
+                  18:30
+                </td>
+                <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
+                  Ciclana de taal e godofredo
+                </td>
               </tr>
               <tr>
-                <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">06/10<br></br>(Segurança)</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">17:30</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
+                <td rowspan="2" class="p-4 border-b-2 border-r-2 border-secomp">
+                  06/10<br></br>(Segurança)
+                </td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">17:30</td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">
+                  Fulana de tal tal coisa
+                </td>
               </tr>
               <tr>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">18:30</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">Ciclada de taal e godofredo</td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">18:30</td>
+                <td class="p-4 border-b-2 border-r-2 border-secomp">
+                  Ciclada de taal e godofredo
+                </td>
               </tr>
             </tbody>
-        </table>
+          </table>
         </section>
 
         <section id="campeonato" className={styles.sCampeonato}>
@@ -127,8 +184,15 @@ function App() {
             quatro jogos: <span>CS:GO</span>, <span>League of Legends</span>,{' '}
             <span>Overwatch</span> e <span>Valorant</span>. As Eliminatórias e
             Semifinais estão previstas para acontecer durante os dias 27 de
-            setembro até 3 de outubro. A Final acontecerá AO VIVO na Twitch no
-            final de semana que sucede a SECOMP (9 e 10 de outubro).
+            setembro até 3 de outubro. A Final acontecerá AO VIVO na{' '}
+            <a
+              href="https://www.twitch.tv/petinformaticauem"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitch
+            </a>{' '}
+            no final de semana que sucede a SECOMP (9 e 10 de outubro).
           </p>
           <p data-aos="fade-down">
             Obs: nada impede que os outros não sejam ao vivo, isso pode ser

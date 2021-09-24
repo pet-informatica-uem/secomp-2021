@@ -1,6 +1,7 @@
 import styles from './Home.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
+import './index.css';
 import 'swiper/swiper-bundle.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -79,6 +80,44 @@ function App() {
 
         <section id="cronograma" className={styles.sCronograma}>
           <h2 data-aos="fade-right">Cronograma</h2>
+          <table data-aos="fade-down" class="table-fixed border-4 border-secomp">
+            <thead>
+              <tr class = "border-secomp border-b-2">
+              <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/20">Dia</th>
+              <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-1/50">Hora</th>
+              <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/4">Palestra</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">04/10<br></br>(IA)</td>
+              <td class = "p-4 border-b-2 border-r-2 border-secomp">17:30</td>
+              <td class = "p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
+              </tr>
+              <tr>
+                <td class = "p-4 border-b-2 border-r-2 border-secomp">18:30</td>
+                <td class = "p-4 border-b-2 border-r-2 border-secomp">Ciclada de taal e godofredo</td>
+              </tr>
+              <tr>
+                <td rowspan = "2" class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">05/10<br></br>(Game)</td>
+                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">17:30</td>
+                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
+              </tr>
+              <tr>
+                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">18:30</td>
+                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Ciclana de taal e godofredo</td>
+              </tr>
+              <tr>
+                <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">06/10<br></br>(Segurança)</td>
+                <td class = "p-4 border-b-2 border-r-2 border-secomp">17:30</td>
+                <td class = "p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
+              </tr>
+              <tr>
+                <td class = "p-4 border-b-2 border-r-2 border-secomp">18:30</td>
+                <td class = "p-4 border-b-2 border-r-2 border-secomp">Ciclada de taal e godofredo</td>
+              </tr>
+            </tbody>
+        </table>
         </section>
 
         <section id="campeonato" className={styles.sCampeonato}>

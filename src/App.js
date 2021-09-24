@@ -80,59 +80,43 @@ function App() {
 
         <section id="cronograma" className={styles.sCronograma}>
           <h2 data-aos="fade-right">Cronograma</h2>
-          <table class="table-auto shadow-lg border-2 border-secomp">
+          <table data-aos="fade-down" class="table-fixed border-4 border-secomp rounded-full">
             <thead>
               <tr class = "border-secomp border-b-2">
-                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4">Dia</th>
-                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4">Tema</th>
-                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4">Hora</th>
-                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4">Palestra</th>
-                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4">Empresa</th>
+                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/20">Dia</th>
+                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-1/50">Hora</th>
+                <th class = "bg-secomp bg-opacity-25 border-b-2 border-r-2 border-secomp p-4 w-3/4">Palestra</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">04/10</td>
-                <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">IA</td>
+                <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">04/10<br></br>(IA)</td>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">17:30</td>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">NASA</td>
               </tr>
               <tr>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">18:30</td>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">Ciclada de taal e godofredo</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">Space X</td>
               </tr>
               <tr>
                 <td rowspan = "2" class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">05/10</td>
-                <td rowspan = "2" class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Game</td>
                 <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">17:30</td>
                 <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
-                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">NASA</td>
               </tr>
               <tr>
                 <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">18:30</td>
                 <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Ciclana de taal e godofredo</td>
-                <td class = "bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">Sapece X</td>
               </tr>
               <tr>
                 <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">04/10</td>
-                <td rowspan = "2" class = "p-4 border-b-2 border-r-2 border-secomp">IA</td>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">17:30</td>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">Fulana de tal tal coisa</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">NASA</td>
               </tr>
               <tr>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">18:30</td>
                 <td class = "p-4 border-b-2 border-r-2 border-secomp">Ciclada de taal e godofredo</td>
-                <td class = "p-4 border-b-2 border-r-2 border-secomp">Space X</td>
-              </tr>
-            </tbody>
-        </table>
-        </section>
-
-        <section id="campeonato" className={styles.sCampeonato}>
-          <h2 data-aos="fade-right">Campeonato</h2>
+              <td class = "p-4 border-b-2 border-r-2 border-secomp">Space X</td>
+<h2 data-aos="fade-right">Campeonato</h2>
           <p data-aos="fade-down">
             O Campeonato de Jogos da Quinta Edição da SECOMP será composto por
             quatro jogos: <span>CS:GO</span>, <span>League of Legends</span>,{' '}

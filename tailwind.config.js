@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       colors: {
         'secomp': '#4a8123',
+      },
+
+      width: {
+        '1/50': '5.00%',
+        '3/20': '15.00%',
       }
     },
   },

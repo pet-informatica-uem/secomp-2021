@@ -268,52 +268,72 @@ function App() {
         </section>
       </main>
       <footer className={styles.footer}>
-        <div className={styles.realizacao}>
-          <h3>Realização:</h3>
-          <div className={styles.logos}>
-            <a
-              href="https://www.instagram.com/petinfouem/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="/assets/logo-pet.png" alt="Logo PET Informática" />
-            </a>
-            <a href="http://www.uem.br/" target="_blank" rel="noreferrer">
-              <img src="/assets/logo-uem.png" alt="Logo UEM" />
-            </a>
-            <a href="http://www.din.uem.br/" target="_blank" rel="noreferrer">
-              <img src="/assets/logo-din.png" alt="Logo DIN" />
-            </a>
-            <a
-              href="https://www.instagram.com/cainfouem/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/assets/logo-cainfo.png"
-                alt="Logo Cainfo"
-                style={{ width: '70px' }}
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/caccomuem/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/assets/logo-caccom.png"
-                alt="Logo Caccom"
-                style={{ width: '70px' }}
-              />
-            </a>
+        <div className={styles.footerContainer}>
+          <div className={styles.realizacao}>
+            <h3>Realização:</h3>
+            <div className={styles.logos}>
+              <a
+                href="https://www.instagram.com/petinfouem/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="/assets/logo-pet.png" alt="Logo PET Informática" />
+              </a>
+              <a href="http://www.uem.br/" target="_blank" rel="noreferrer">
+                <img src="/assets/logo-uem.png" alt="Logo UEM" />
+              </a>
+              <a href="http://www.din.uem.br/" target="_blank" rel="noreferrer">
+                <img src="/assets/logo-din.png" alt="Logo DIN" />
+              </a>
+              <a
+                href="https://www.instagram.com/cainfouem/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/logo-cainfo.png"
+                  alt="Logo Cainfo"
+                  style={{ width: '70px' }}
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/caccomuem/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/logo-caccom.png"
+                  alt="Logo Caccom"
+                  style={{ width: '70px' }}
+                />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className={styles.patrocinio}>
-          <h3>Patrocínio:</h3>
-          <div className={styles.logos}>
-            <a href="/" target="_blank" rel="noreferrer">
-              <img src="/assets/logo-pet.png" alt="Logo PET Informática" />
-            </a>
+          <div className={styles.patrocinio}>
+            <h3>Patrocínio:</h3>
+            <div className={styles.logos}>
+              <a
+                href="https://www.olx.com.br/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/logo-olx.svg"
+                  alt="Logo OLX"
+                  style={{ width: '70px' }}
+                />
+              </a>
+              <a
+                href="https://firstphoenixstudio.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/assets/logo-first-phoenix.png"
+                  alt="Logo First Phoenix"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </footer>

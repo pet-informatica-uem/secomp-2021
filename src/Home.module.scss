@@ -64,10 +64,12 @@
         justify-content: space-between;
         margin-top: 24px;
 
-        button {
+        a {
           width: 176px;
           height: 59px;
-          border: 0;
+          // border: 0;
+          line-height: 59px;
+          text-align: center;
           background-color: var(--green);
           border-radius: 16px;
           color: #fff;
@@ -140,7 +142,7 @@
         .footerHero {
           flex-direction: column;
           align-items: center;
-          button {
+          a {
             margin-bottom: 40px;
           }
         }

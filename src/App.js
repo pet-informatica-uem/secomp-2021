@@ -104,7 +104,7 @@ function App() {
             </div>
           </div>
           <div className={styles.image} data-aos="zoom-in">
-            <img src="/assets/logo.svg" alt="Logo SECOMP" title="Logo SECOMP" />
+            <img src="./assets/logo.svg" alt="Logo SECOMP" title="Logo SECOMP" />
           </div>
         </section>
 
@@ -303,7 +303,7 @@ function App() {
                 rel="noreferrer"
                 href="https://docs.google.com/document/d/1QwpYuYufrqaMJ3Ag8RybtwZbIruME6hy/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
               >
-                <img src="/assets/csgo.jpg" alt="CS:GO" />
+                <img src="./assets/csgo.jpg" alt="CS:GO" />
               </a>
             </SwiperSlide>
 
@@ -313,7 +313,7 @@ function App() {
                 rel="noreferrer"
                 href="https://docs.google.com/document/d/19Bs4l8aYTzeHkMUSC4mOuTHMtisjKjYe/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
               >
-                <img src="/assets/lol.jpg" alt="LOL" />
+                <img src="./assets/lol.jpg" alt="LOL" />
               </a>
             </SwiperSlide>
             <SwiperSlide className={styles['swiper-slide']}>
@@ -322,7 +322,7 @@ function App() {
                 rel="noreferrer"
                 href="https://docs.google.com/document/d/1XdoKxTONRs50p0aT8fHZ-ub66jyDCXHvK05juIoKVjs/edit"
               >
-                <img src="/assets/valorant.jpg" alt="Valorant" />
+                <img src="./assets/valorant.jpg" alt="Valorant" />
               </a>
             </SwiperSlide>
             <SwiperSlide className={styles['swiper-slide']}>
@@ -331,7 +331,7 @@ function App() {
                 rel="noreferrer"
                 href="https://docs.google.com/document/d/1Cdo6gKPeWVbYWax1B6BODR2V7mQFWjgp/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
               >
-                <img src="/assets/overwatch.jpg" alt="Overwatch" />
+                <img src="./assets/overwatch.jpg" alt="Overwatch" />
               </a>
             </SwiperSlide>
           </Swiper>
@@ -347,13 +347,13 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="/assets/logo-pet.png" alt="Logo PET Informática" />
+                <img src="./assets/logo-pet.png" alt="Logo PET Informática" />
               </a>
               <a href="http://www.uem.br/" target="_blank" rel="noreferrer">
-                <img src="/assets/logo-uem.png" alt="Logo UEM" />
+                <img src="./assets/logo-uem.png" alt="Logo UEM" />
               </a>
               <a href="http://www.din.uem.br/" target="_blank" rel="noreferrer">
-                <img src="/assets/logo-din.png" alt="Logo DIN" />
+                <img src="./assets/logo-din.png" alt="Logo DIN" />
               </a>
               <a
                 href="https://www.instagram.com/cainfouem/"
@@ -361,7 +361,7 @@ function App() {
                 rel="noreferrer"
               >
                 <img
-                  src="/assets/logo-cainfo.png"
+                  src="./assets/logo-cainfo.png"
                   alt="Logo Cainfo"
                   style={{ width: '70px' }}
                 />
@@ -372,7 +372,7 @@ function App() {
                 rel="noreferrer"
               >
                 <img
-                  src="/assets/logo-caccom.png"
+                  src="./assets/logo-caccom.png"
                   alt="Logo Caccom"
                   style={{ width: '70px' }}
                 />
@@ -388,7 +388,7 @@ function App() {
                 rel="noreferrer"
               >
                 <img
-                  src="/assets/logo-olx.svg"
+                  src="./assets/logo-olx.svg"
                   alt="Logo OLX"
                   style={{ width: '70px' }}
                 />
@@ -399,7 +399,7 @@ function App() {
                 rel="noreferrer"
               >
                 <img
-                  src="/assets/logo-first-phoenix.png"
+                  src="./assets/logo-first-phoenix.png"
                   alt="Logo First Phoenix"
                 />
               </a>

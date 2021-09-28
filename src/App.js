@@ -34,9 +34,9 @@ function App() {
               A Semana da Computação, carinhosamente chamada de{' '}
               <span>SECOMP</span>, é um evento que ocorre uma vez por ano na UEM
               (Universidade Estadual de Maringá) e é promovido pelo Departamento
-              de Informática, o DIN. A SECOMP 2021 será a quarta edição do
+              de Informática, o DIN. A SECOMP 2021 será a quinta edição do
               evento e acontecerá nos{' '}
-              <span>dias 04, 05, 06, 07 e 08 de outubro</span> de 2021. As
+              <span>dias 04, 05, 06, 07, 08 e 09 de outubro</span> de 2021. As
               inscrições são gratuitas e todos podem participar! A programação
               inclui palestras, painéis de discussões, campeonato de jogos e
               sorteios, tudo isto com o intuito de levar tecnologia e informação
@@ -50,6 +50,8 @@ function App() {
                 Discord da IV SECOMP
               </a>{' '}
               e ficar por dentro de qualquer atualização, ou tirar suas dúvidas.
+              <br></br>Todas as palestras serão transmitidas na Twitch e Youtube
+              do PET-Informática, para acessá-los, clique nos ícones roxos abaixo.
               Aproveite!
             </p>
             <div className={styles.footerHero}>
@@ -220,7 +222,7 @@ function App() {
                 </td>
                 <td class="p-4 border-b-2 border-r-2 border-secomp">17:30</td>
                 <td class="p-4 border-b-2 border-r-2 border-secomp">
-                  Alison Renan e Lailla Milainny Siqueira Bine
+                  Akina Kurita, Alison Renan, Lailla Milainny Siqueira Bine e Rafael Rodrigues dos Santos
                 </td>
               </tr>
               <tr>
@@ -268,7 +270,15 @@ function App() {
           </p>
           <h4 data-aos="fade-right">Horários</h4>
           <p data-aos="fade-down">
-            Todos os horários estão descritos no instagram da SECOMP.<br></br>
+            Todos os horários estão descritos no {' '}
+            <a
+                href="https://www.instagram.com/secompuem/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>{' '}
+            da SECOMP.<br></br>
             Por favor, equipes que vão participar dos jogos confira sua data
             horário correspondentes.<br></br>
             Qualquer dúvida, contate-nos pelo Discord da SECOMP.
@@ -347,10 +357,10 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="./assets/logo-pet.png" alt="Logo PET Informática" />
+                <img src="./assets/logo-pet.png" alt="Logo PET Informática" style={{ width: '70px' }}/>
               </a>
               <a href="http://www.uem.br/" target="_blank" rel="noreferrer">
-                <img src="./assets/logo-uem.png" alt="Logo UEM" />
+                <img src="./assets/logo-uem.png" alt="Logo UEM" style={{ width: '70px' }} />
               </a>
               <a href="http://www.din.uem.br/" target="_blank" rel="noreferrer">
                 <img src="./assets/logo-din.png" alt="Logo DIN" style={{ width: '70px' }}/>
@@ -363,7 +373,7 @@ function App() {
                 <img
                   src="./assets/logo-cainfo.png"
                   alt="Logo Cainfo"
-                  style={{ width: '70px' }}
+                  style={{ width: '60px' }}
                 />
               </a>
               <a
@@ -374,7 +384,7 @@ function App() {
                 <img
                   src="./assets/logo-caccom.png"
                   alt="Logo Caccom"
-                  style={{ width: '70px' }}
+                  style={{ width: '60px' }}
                 />
               </a>
               <a
@@ -385,7 +395,7 @@ function App() {
                 <img
                   src="./assets/logo-vertical.png"
                   alt="Logo Conectadas"
-                  style={{ width: '70px' }}
+                  style={{ width: '60px' }}
                 />
               </a>
             </div>

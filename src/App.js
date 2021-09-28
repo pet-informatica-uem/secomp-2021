@@ -200,7 +200,7 @@ function App() {
                 </td>
                 <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
                   Pentest: O que é? Onde Vive? Por que toda Empresa que um? -
-                  Amanda Barbosa Sobrinho (Engenheira de Segunrança no
+                  Amanda Barbosa Sobrinho (Engenheira de Segurança no
                   PagSeguro)
                 </td>
               </tr>
@@ -353,7 +353,7 @@ function App() {
                 <img src="./assets/logo-uem.png" alt="Logo UEM" />
               </a>
               <a href="http://www.din.uem.br/" target="_blank" rel="noreferrer">
-                <img src="./assets/logo-din.png" alt="Logo DIN" />
+                <img src="./assets/logo-din.png" alt="Logo DIN" style={{ width: '70px' }}/>
               </a>
               <a
                 href="https://www.instagram.com/cainfouem/"
@@ -374,6 +374,17 @@ function App() {
                 <img
                   src="./assets/logo-caccom.png"
                   alt="Logo Caccom"
+                  style={{ width: '70px' }}
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/conectadasuem/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="./assets/logo-vertical.png"
+                  alt="Logo Conectadas"
                   style={{ width: '70px' }}
                 />
               </a>

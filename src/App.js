@@ -47,7 +47,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Discord da IV SECOMP
+                Discord da V SECOMP
               </a>{' '}
               e ficar por dentro de qualquer atualização, ou tirar suas dúvidas.
               <br></br>Todas as palestras serão transmitidas na Twitch e Youtube
@@ -201,7 +201,7 @@ function App() {
                   17:30
                 </td>
                 <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
-                  Pentest: O que é? Onde Vive? Por que toda Empresa que um? -
+                  Pentest: O que é? Onde Vive? Por que toda Empresa quer um? -
                   Amanda Barbosa Sobrinho (Engenheira de Segurança no
                   PagSeguro)
                 </td>
@@ -222,7 +222,7 @@ function App() {
                 </td>
                 <td class="p-4 border-b-2 border-r-2 border-secomp">17:30</td>
                 <td class="p-4 border-b-2 border-r-2 border-secomp">
-                  Akina Kurita, Alison Renan, Lailla Milainny Siqueira Bine e Rafael Rodrigues dos Santos
+                  Akina Kurita, Alisson Renan Svaigen, Lailla Milainny Siqueira Bine e Rafael Rodrigues dos Santos
                 </td>
               </tr>
               <tr>

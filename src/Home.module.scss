@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   z-index: 2021;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
 
   nav {
@@ -44,7 +44,7 @@
 
     .left {
       p {
-        font-family: "Poppins", sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 18px;
         line-height: 28px;
         color: #ccc;
@@ -73,7 +73,7 @@
           background-color: var(--green);
           border-radius: 16px;
           color: #fff;
-          font-family: "Roboto", sans-serif;
+          font-family: 'Roboto', sans-serif;
           font-weight: 700;
           transition: all 0.2s;
 
@@ -155,7 +155,7 @@
       font-size: 48px;
       color: var(--green);
       &:after {
-        content: "";
+        content: '';
         display: block;
         width: 45px;
         height: 5px;
@@ -169,12 +169,12 @@
     }
 
     thead {
-      font-family: "Poppins", sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
 
     td {
       text-align: center;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
   }
 
@@ -184,7 +184,7 @@
       font-size: 48px;
       color: var(--purple);
       &:after {
-        content: "";
+        content: '';
         display: block;
         width: 45px;
         height: 5px;
@@ -194,7 +194,7 @@
       }
     }
     p {
-      font-family: "Poppins", sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: 18px;
       line-height: 28px;
       color: #ccc;
@@ -257,8 +257,16 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 40px;
+
         img {
           max-width: 120px;
+        }
+      }
+    }
+    .patrocinio {
+      a:first-child {
+        img {
+          margin-right: 50px;
         }
       }
     }
@@ -283,6 +291,15 @@
 
       .patrocinio {
         margin-bottom: 80px;
+        .logos {
+          flex-direction: column;
+          a:first-child {
+            img {
+              margin-right: 0;
+              margin-bottom: 20px;
+            }
+          }
+        }
       }
     }
   }
@@ -291,6 +308,16 @@
 @media (max-width: 480px) {
   .swiper-wrapper {
     max-width: 284px;
+  }
+
+  .footer {
+    .footerContainer {
+      .patrocinio {
+        .logos {
+          flex-direction: column;
+        }
+      }
+    }
   }
 }
 

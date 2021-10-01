@@ -51,8 +51,8 @@ function App() {
               </a>{' '}
               e ficar por dentro de qualquer atualização, ou tirar suas dúvidas.
               <br></br>Todas as palestras serão transmitidas na Twitch e Youtube
-              do PET-Informática, para acessá-los, clique nos ícones roxos abaixo.
-              Aproveite!
+              do PET-Informática, para acessá-los, clique nos ícones roxos
+              abaixo. Aproveite!
             </p>
             <div className={styles.footerHero}>
               <a
@@ -106,7 +106,11 @@ function App() {
             </div>
           </div>
           <div className={styles.image} data-aos="zoom-in">
-            <img src="./assets/logo.svg" alt="Logo SECOMP" title="Logo SECOMP" />
+            <img
+              src="./assets/logo.svg"
+              alt="Logo SECOMP"
+              title="Logo SECOMP"
+            />
           </div>
         </section>
 
@@ -202,8 +206,7 @@ function App() {
                 </td>
                 <td class="bg-secomp bg-opacity-25 p-4 border-b-2 border-r-2 border-secomp">
                   Pentest: O que é? Onde Vive? Por que toda Empresa quer um? -
-                  Amanda Barbosa Sobrinho (Engenheira de Segurança no
-                  PagSeguro)
+                  Amanda Barbosa Sobrinho (Engenheira de Segurança no PagSeguro)
                 </td>
               </tr>
               <tr>
@@ -222,7 +225,8 @@ function App() {
                 </td>
                 <td class="p-4 border-b-2 border-r-2 border-secomp">17:30</td>
                 <td class="p-4 border-b-2 border-r-2 border-secomp">
-                  Akina Kurita, Alisson Renan Svaigen, Lailla Milainny Siqueira Bine e Rafael Rodrigues dos Santos
+                  Akina Kurita, Alisson Renan Svaigen, Lailla Milainny Siqueira
+                  Bine e Rafael Rodrigues dos Santos
                 </td>
               </tr>
               <tr>
@@ -270,14 +274,14 @@ function App() {
           </p>
           <h4 data-aos="fade-right">Horários</h4>
           <p data-aos="fade-down">
-            Todos os horários estão descritos no {' '}
+            Todos os horários estão descritos no{' '}
             <a
-                href="https://www.instagram.com/secompuem/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Instagram
-              </a>{' '}
+              href="https://www.instagram.com/secompuem/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>{' '}
             da SECOMP.<br></br>
             Por favor, equipes que vão participar dos jogos confira sua data
             horário correspondentes.<br></br>
@@ -357,13 +361,25 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="./assets/logo-pet.png" alt="Logo PET Informática" style={{ width: '70px' }}/>
+                <img
+                  src="./assets/logo-pet.png"
+                  alt="Logo PET Informática"
+                  style={{ width: '70px' }}
+                />
               </a>
               <a href="http://www.uem.br/" target="_blank" rel="noreferrer">
-                <img src="./assets/logo-uem.png" alt="Logo UEM" style={{ width: '70px' }} />
+                <img
+                  src="./assets/logo-uem.png"
+                  alt="Logo UEM"
+                  style={{ width: '70px' }}
+                />
               </a>
               <a href="http://www.din.uem.br/" target="_blank" rel="noreferrer">
-                <img src="./assets/logo-din.png" alt="Logo DIN" style={{ width: '70px' }}/>
+                <img
+                  src="./assets/logo-din.png"
+                  alt="Logo DIN"
+                  style={{ width: '70px' }}
+                />
               </a>
               <a
                 href="https://www.instagram.com/cainfouem/"
@@ -409,9 +425,9 @@ function App() {
                 rel="noreferrer"
               >
                 <img
-                  src="./assets/logo-olx.svg"
+                  src="./assets/logo-olx.png"
                   alt="Logo OLX"
-                  style={{ width: '70px' }}
+                  style={{ width: '120px' }}
                 />
               </a>
               <a

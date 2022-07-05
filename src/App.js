@@ -34,9 +34,9 @@ function App() {
               A Semana da Computação, carinhosamente chamada de{' '}
               <span>SECOMP</span>, é um evento que ocorre uma vez por ano na UEM
               (Universidade Estadual de Maringá) e é promovido pelo Departamento
-              de Informática, o DIN. A SECOMP 2021 será a quinta edição do
+              de Informática, o DIN. A SECOMP 2022 será a sexta edição do
               evento e acontecerá nos{' '}
-              <span>dias 04, 05, 06, 07, 08 e 09 de outubro</span> de 2021. As
+              <span>dias 03, 04, 05, 06 e 07 de outubro</span> de 2022. As
               inscrições são gratuitas e todos podem participar! A programação
               inclui palestras, painéis de discussões, campeonato de jogos e
               sorteios, tudo isto com o intuito de levar tecnologia e informação
@@ -115,7 +115,7 @@ function App() {
         </section>
 
         <section id="cronograma" className={styles.sCronograma}>
-          <h2 data-aos="fade-right">Cronograma</h2>
+          <h2 data-aos="fade-right">Cronograma, ainda a decidir...</h2>
           <table
             data-aos="fade-down"
             class="table-fixed border-4 border-secomp"
@@ -133,7 +133,7 @@ function App() {
                 </th>
               </tr>
             </thead>
-            <tbody>
+            {/* <tbody>
               <tr>
                 <td rowspan="2" class="p-4 border-b-2 border-r-2 border-secomp">
                   04/10<br></br>(Abertura)
@@ -252,7 +252,7 @@ function App() {
                   Campeonatos de CS:GO, LOL e Valorant
                 </td>
               </tr>
-            </tbody>
+            </tbody> */}
           </table>
         </section>
 
@@ -262,8 +262,8 @@ function App() {
             O Campeonato de Jogos da Quinta Edição da SECOMP será composto por
             quatro jogos: <span>CS:GO</span>, <span>League of Legends</span>,{' '}
             <span>Overwatch</span> e <span>Valorant</span>. As Eliminatórias e
-            Semifinais estão previstas para acontecer durante os dias 27 de
-            setembro até 3 de outubro. A Final acontecerá AO VIVO na Twitch no
+            Semifinais estão previstas para acontecer de forma remota. 
+            A Final acontecerá PRESENCIALMENTE na UEM no
             final de semana que sucede a SECOMP (9 de outubro).
           </p>
           <p data-aos="fade-down">
@@ -419,7 +419,7 @@ function App() {
           <div className={styles.patrocinio}>
             <h3>Patrocínio:</h3>
             <div className={styles.logos}>
-              <a
+              {/* <a
                 href="https://www.olx.com.br/"
                 target="_blank"
                 rel="noreferrer"
@@ -439,7 +439,7 @@ function App() {
                   src="./assets/logo-first-phoenix.png"
                   alt="Logo First Phoenix"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'secomp': '#4a8123',
+        'secomp': '#ec5544',
       },
 
       width: {

@@ -55,14 +55,14 @@ function App() {
               abaixo. Aproveite!
             </p>
             <div className={styles.footerHero}>
-              <a
+              {/* <a
                 href="https://forms.gle/7CX5Hn9ui1sGRaD39"
                 target="_blank"
                 rel="noreferrer"
                 data-aos="fade-left"
               >
                 INSCREVA-SE
-              </a>
+              </a> */}
               <div className={styles.social} data-aos="fade-up">
                 <ul>
                   <li>
@@ -107,7 +107,7 @@ function App() {
           </div>
           <div className={styles.image} data-aos="zoom-in">
             <img
-              src="./assets/logo.svg"
+              src="./assets/logoteste.png"
               alt="Logo SECOMP"
               title="Logo SECOMP"
             />

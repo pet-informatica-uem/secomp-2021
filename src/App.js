@@ -36,12 +36,11 @@ function App() {
               (Universidade Estadual de Maringá) e é promovido pelo Departamento
               de Informática, o DIN. A SECOMP 2022 será a sexta edição do
               evento e acontecerá nos{' '}
-              <span>dias 03, 04, 05, 06 e 07 de outubro</span> de 2022. As
-              inscrições são gratuitas e todos podem participar! A programação
-              inclui palestras, painéis de discussões, campeonato de jogos e
-              sorteios, tudo isto com o intuito de levar tecnologia e informação
-              aos participantes. Confira a programação aqui pelo site.
-              Convidamos você a participar do{' '}
+              <span>dias 03, 04, 05, 06 e 07 de outubro</span> de 2022. A programação
+              incluirá palestras, workshops, painéis de discussões, feiras de profissão,
+              campeonatos de jogos e sorteios, tudo isto com o intuito de levar tecnologia
+              e informação aos participantes. Mais informações em breve!
+              {/* Convidamos você a participar do{' '}
               <a
                 href="https://discord.gg/6XKBDnbFsQ"
                 target="_blank"
@@ -52,7 +51,7 @@ function App() {
               e ficar por dentro de qualquer atualização, ou tirar suas dúvidas.
               <br></br>Todas as palestras serão transmitidas na Twitch e Youtube
               do PET-Informática, para acessá-los, clique nos ícones roxos
-              abaixo. Aproveite!
+              abaixo. Aproveite! */}
             </p>
             <div className={styles.footerHero}>
               {/* <a
@@ -83,7 +82,7 @@ function App() {
                       <img src="./assets/instagram-icon.svg" alt="Instagram" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://discord.gg/6XKBDnbFsQ"
                       target="_blank"
@@ -91,7 +90,7 @@ function App() {
                     >
                       <img src="./assets/discord-icon.svg" alt="Discord" />
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://www.twitch.tv/petinformaticauem"
@@ -115,7 +114,18 @@ function App() {
         </section>
 
         <section id="cronograma" className={styles.sCronograma}>
-          <h2 data-aos="fade-right">Cronograma, ainda a decidir...</h2>
+          <h2 data-aos="fade-right">Cronograma</h2>
+          <p data-aos="fade-down">
+            O cronograma ainda está sendo definido. Siga-nos no{' '}
+            <a
+              href="https://www.instagram.com/secompuem/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>{' '}
+            da SECOMP para ficar atualizado sobre os eventos que ocorrerão nesta edição.<br></br>
+          </p>
           <table
             data-aos="fade-down"
             class="table-fixed border-4 border-secomp"
@@ -133,7 +143,7 @@ function App() {
                 </th>
               </tr>
             </thead>
-            {/* <tbody>
+            {/*<tbody>
               <tr>
                 <td rowspan="2" class="p-4 border-b-2 border-r-2 border-secomp">
                   04/10<br></br>(Abertura)
@@ -252,29 +262,22 @@ function App() {
                   Campeonatos de CS:GO, LOL e Valorant
                 </td>
               </tr>
-            </tbody> */}
+            </tbody>*/} 
           </table>
         </section>
 
         <section id="campeonato" className={styles.sCampeonato}>
           <h2 data-aos="fade-right">Campeonato</h2>
           <p data-aos="fade-down">
-            O Campeonato de Jogos da Quinta Edição da SECOMP será composto por
-            quatro jogos: <span>CS:GO</span>, <span>League of Legends</span>,{' '}
-            <span>Overwatch</span> e <span>Valorant</span>. As Eliminatórias e
-            Semifinais estão previstas para acontecer de forma remota. 
-            A Final acontecerá PRESENCIALMENTE na UEM no
-            final de semana que sucede a SECOMP (9 de outubro).
+            O Campeonato de Jogos da Sexta Edição da SECOMP terá quatro modalidades:{' '}
+            <span>Counter-Strike: Global Offensive</span>, <span>League of Legends</span>,{' '}
+            <span>Valorant</span> e <span>Xadrez</span>. As Eliminatórias e
+            Semifinais estão previstas para acontecer de forma online, e 
+            as finais acontecerão presencialmente na UEM no
+            final de semana que sucede a SECOMP, dia 9 de outubro.
           </p>
           <p data-aos="fade-down">
-            Obs: Os prêmios das equipes do campeonato será entregue somente ao
-            primeiro lugar de cada jogo.<br></br>
-            Caso tenha um prêmio físico, ele só poderá ser resgatado quando as
-            aulas da UEM voltarem presencialmente.
-          </p>
-          <h4 data-aos="fade-right">Horários</h4>
-          <p data-aos="fade-down">
-            Todos os horários estão descritos no{' '}
+            Os horários ainda estão sendo elaborados. Para atualizações e novidades, siga-nos no{' '}
             <a
               href="https://www.instagram.com/secompuem/"
               target="_blank"
@@ -283,9 +286,6 @@ function App() {
               Instagram
             </a>{' '}
             da SECOMP.<br></br>
-            Por favor, equipes que vão participar dos jogos confira sua data
-            horário correspondentes.<br></br>
-            Qualquer dúvida, contate-nos pelo Discord da SECOMP.
           </p>
 
           <p data-aos="fade-down">Clique nas imagens para ler o regulamento.</p>
@@ -343,9 +343,9 @@ function App() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/document/d/1Cdo6gKPeWVbYWax1B6BODR2V7mQFWjgp/edit?usp=sharing&ouid=110308908067527417189&rtpof=true&sd=true"
+                href="#"
               >
-                <img src="./assets/overwatch.jpg" alt="Overwatch" />
+                <img src="./assets/xadrez-mini.jpg" alt="Xadrez" />
               </a>
             </SwiperSlide>
           </Swiper>
@@ -416,10 +416,10 @@ function App() {
               </a>
             </div>
           </div>
-          <div className={styles.patrocinio}>
+          {/*<div className={styles.patrocinio}>
             <h3>Patrocínio:</h3>
             <div className={styles.logos}>
-              {/* <a
+               <a
                 href="https://www.olx.com.br/"
                 target="_blank"
                 rel="noreferrer"
@@ -439,9 +439,9 @@ function App() {
                   src="./assets/logo-first-phoenix.png"
                   alt="Logo First Phoenix"
                 />
-              </a> */}
+              </a> 
             </div>
-          </div>
+          </div>*/}
         </div>
       </footer>
 

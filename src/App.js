@@ -37,7 +37,7 @@ function App() {
               de Informática, o DIN. A SECOMP 2022 será a sexta edição do
               evento e acontecerá nos{' '}
               <span>dias 03, 04, 05, 06 e 07 de outubro</span> de 2022. A programação
-              incluirá palestras, workshops, painéis de discussões, feiras de profissão,
+              incluirá palestras, workshops, painéis de discussões, feiras de oportunidades,
               campeonatos de jogos e sorteios, tudo isto com o intuito de levar tecnologia
               e informação aos participantes. Mais informações em breve!
               {/* Convidamos você a participar do{' '}

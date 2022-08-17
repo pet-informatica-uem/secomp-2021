@@ -343,7 +343,7 @@ function App() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="#"
+                href="https://docs.google.com/document/d/1nWD8vvWZHfRcnANxoZyvGCmebOJdHvwUe_sd93UGNMk/edit?usp=sharing"
               >
                 <img src="./assets/xadrez-mini.jpg" alt="Xadrez" />
               </a>

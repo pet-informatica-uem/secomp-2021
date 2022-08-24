@@ -12,7 +12,7 @@ function App() {
      <Menu/>
       <main className={styles.main}>
         <Home/>
-        <Cronograma/>
+        {/* <Cronograma/> */}
         <Campeonato/>
       </main>
       <Rodape/>
